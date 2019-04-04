@@ -1,0 +1,181 @@
+{
+  "page": 8,
+  "total_results": 149,
+  "total_pages": 8,
+  "results": [
+      {
+          "vote_count": 13,
+          "id": 42209,
+          "video": false,
+          "vote_average": 5.3,
+          "title": "Os Trapalhões na Guerra dos Planetas",
+          "popularity": 1.057,
+          "poster_path": "/vm7CB3yZ5Zt2NvCuNbfQvbEwAsI.jpg",
+          "original_language": "pt",
+          "original_title": "Os Trapalhões na Guerra dos Planetas",
+          "genre_ids": [
+              12,
+              35,
+              10751,
+              878
+          ],
+          "backdrop_path": "/wk2iIX31vjQCoS1jssasqFu7Z47.jpg",
+          "adult": false,
+          "overview": "Coming from outer space, Prince Flick asks the Trapalhões to help him free his planet from the domain of evil Zuco and free Princess Myrna, who has been taken prisoner. He offers a reward, the four friends accept the mission and embark in a spaceship driven by a hairy monster called Bonzo. Once on the planet, they they defeat Zuco, but they fail to save Princess Myrna's life. Her place on the throne is then taken by Loya, the girlfriend Didi met on that planet. Back on Earth, os Trapalhões think their adventure was but a dream, but they are convinced otherwise when they find their reward.",
+          "release_date": "1978-03-26"
+      },
+      {
+          "vote_count": 3,
+          "id": 130691,
+          "video": false,
+          "vote_average": 4.5,
+          "title": "The Dark Redemption",
+          "popularity": 0.681,
+          "poster_path": "/jeiDXMc79nMmZZnSbmldNNbdFhh.jpg",
+          "original_language": "en",
+          "original_title": "The Dark Redemption",
+          "genre_ids": [
+              878,
+              18
+          ],
+          "backdrop_path": "/xg7xZ1beeOh9ctxqEQV7AtOTiKb.jpg",
+          "adult": false,
+          "overview": "Set two days before the events of Episode Four in the Star Wars series of films. In this fan-produced movie, Jedi Mara Jade has received a copy of the Death Star plans, which she must somehow get to the rebel forces. Unfortunately, she is being held prisoner by the Empire, and only two rebel soldiers, Zev and Klaus, can save her. As if breaking into an Imperial prison and getting the plans wasn't hard enough, bounty hunter Boba Fett is also in the neighborhood to complicate matters.",
+          "release_date": "1999-03-05"
+      },
+      {
+          "vote_count": 3,
+          "id": 390978,
+          "video": false,
+          "vote_average": 3.8,
+          "title": "Exile",
+          "popularity": 0.6,
+          "poster_path": "/mcDjlJxavqJlahESDfTSBCpkTaV.jpg",
+          "original_language": "en",
+          "original_title": "Exile",
+          "genre_ids": [
+              878,
+              12
+          ],
+          "backdrop_path": "/zCLC1h1U6R2WZcBNVJbWEnbkvjQ.jpg",
+          "adult": false,
+          "overview": "Jedi around the galaxy are being viciously hunted and killed by the evil Galactic Empire. Aware of the imminent danger, Jedi Master Boemana Tora and her Padawan Makal Lori, flee to the outer rim systems close to the planet of Lothal.",
+          "release_date": "2016-03-05"
+      },
+      {
+          "vote_count": 3,
+          "id": 571937,
+          "video": false,
+          "vote_average": 7.7,
+          "title": "Vader: Episode 1 - Shards of the Past",
+          "popularity": 1.4,
+          "poster_path": "/m3b71qwbTIo06M5hD9IKtqfhpyw.jpg",
+          "original_language": "en",
+          "original_title": "Vader: Episode 1 - Shards of the Past",
+          "genre_ids": [
+              878,
+              28
+          ],
+          "backdrop_path": "/oAuVQfmSsSZuKqKDcKAGl3e4stl.jpg",
+          "adult": false,
+          "overview": "Anakin Skywalker is dead. For eight months, the mysterious Darth Vader has enforced the Emperor's commands. Fighting between the loss of Padmé, and the new cursed life he now leads, Vader must do what must be done when a surviving Jedi Master from Order 66 has lured him to the home planet of his late wife's tomb...",
+          "release_date": "2018-12-21"
+      },
+      {
+          "vote_count": 0,
+          "id": 575400,
+          "video": true,
+          "vote_average": 0,
+          "title": "The Phantom Menace Review",
+          "popularity": 0.6,
+          "poster_path": null,
+          "original_language": "en",
+          "original_title": "The Phantom Menace Review",
+          "genre_ids": [
+              35
+          ],
+          "backdrop_path": "/lrZs0Cmw5RPlWPgApb5ln7g1A6P.jpg",
+          "adult": false,
+          "overview": "A serial killer decides to dissect the critically panned Star Wars prequels to determine their TRUE flaws.",
+          "release_date": "2009-12-10"
+      },
+      {
+          "vote_count": 2,
+          "id": 131477,
+          "video": true,
+          "vote_average": 6.8,
+          "title": "Dark Resurrection Volume 0",
+          "popularity": 0.6,
+          "poster_path": "/1z66oyeDDhLPSZSYXj8YZsCSm5q.jpg",
+          "original_language": "en",
+          "original_title": "Dark Resurrection Volume 0",
+          "genre_ids": [
+              878,
+              28
+          ],
+          "backdrop_path": "/uRsEDGx6GnMHofRmQsbK2vQmCcS.jpg",
+          "adult": false,
+          "overview": "In this Star Wars fan film, Master Sorran is obsessed by his search for an ancient civilization which, according to legend, holds the secret of immortality. After many years he lights upon the wreck of the civilisation’s most powerful starship: the Resurrection. Sorran ignores the dangers and orders his crew to dock. The explorers and Sorran himself will face the mysteries of the Resurrection and the secret of the origins of the dark side.",
+          "release_date": "2011-09-08"
+      },
+      {
+          "vote_count": 0,
+          "id": 443412,
+          "video": false,
+          "vote_average": 0,
+          "title": "Ralph McQuarrie: Tribute to a Master",
+          "popularity": 0.6,
+          "poster_path": "/msQwsqpfiJ1JL9x2poqUgYJvcOS.jpg",
+          "original_language": "en",
+          "original_title": "Ralph McQuarrie: Tribute to a Master",
+          "genre_ids": [
+              99
+          ],
+          "backdrop_path": "/sBrPd8pn50z8FDhfEAMBykTEdQO.jpg",
+          "adult": false,
+          "overview": "Ralph McQuarrie, concept artist of the original Star Wars trilogy, was essential in bringing the characters, ships, and locales of a galaxy far, far away to life. In this special retrospective, Star Wars creator George Lucas, Industrial Light & Magic effects legend Dennis Muren, and many others discuss the impact of McQuarrie, his artistic gifts, and his legacy.",
+          "release_date": "2014-03-05"
+      },
+      {
+          "vote_count": 7,
+          "id": 24551,
+          "video": true,
+          "vote_average": 5,
+          "title": "Dark Resurrection Volume 1",
+          "popularity": 0.6,
+          "poster_path": "/6pkrffJaVqb7jmdGR9a6hVB2UoA.jpg",
+          "original_language": "en",
+          "original_title": "Dark Resurrection Volume 1",
+          "genre_ids": [
+              28,
+              53,
+              878
+          ],
+          "backdrop_path": "/3PLqaTIuRUt1DmUnClEyIdF54nF.jpg",
+          "adult": false,
+          "overview": "An ancient prophesy convinces the powerful Master Sorran to commence an obsessive search for Eron, a mythical place capable of giving the Chosen One infinite knowledge.",
+          "release_date": "2007-06-07"
+      },
+      {
+          "vote_count": 12,
+          "id": 257155,
+          "video": false,
+          "vote_average": 4.8,
+          "title": "Threads of Destiny",
+          "popularity": 0.6,
+          "poster_path": "/vUJt27tq25qDvclp0m4P7lqxIAS.jpg",
+          "original_language": "en",
+          "original_title": "Threads of Destiny",
+          "genre_ids": [
+              878,
+              28,
+              14,
+              12
+          ],
+          "backdrop_path": "/vv3RINVWxLo4aQY9gaTU3IxG9ve.jpg",
+          "adult": false,
+          "overview": "94 years after The Battle of Yavin, the New Republic has been resurrected and democracy once again rules the galaxy. The Jedi Order is reestablished on the planet Yavin 4, and has continued to train new Jedi Knights in the art of peace and justice. But all is not peaceful in this new world. With the fall of the Dark Empire, the ancient Skenvi Empire now comes out of the shadow to make its move. The Skenvi now oppose the New Republic for control over the galaxy with their aggressively growing empire. The Skenvi seek to seize control of all the galaxy's most valuable resources to cripple their enemies. And if a planet refuses to join them, they have been known to take very aggressive actions. Caught in between this struggle over the fate of the galaxy is the little planet of Coreign. The planet possesses a very powerful resource that would greatly favor the side that has access to it if a galactic war was to emerge.",
+          "release_date": "2014-02-23"
+      }
+  ]
+}
