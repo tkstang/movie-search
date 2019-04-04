@@ -22,6 +22,9 @@ const App = () => {
         setResults([results, ...data.results]);
         setLoading(false);
       })
+      .catch((e) => {
+        // handle error
+      })
   }, [search])
 
   return (
