@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import logo from './logo.svg';
-import './App.scss';
+import Search from './components/Search';
+import './styles/App.scss';
 // import page1 from './data/test-data-page-1.json';
 
 
@@ -15,6 +15,7 @@ const App = () => {
 
   useEffect(() => {
     setLoading(true);
+    // Switch to asyn await?
     // Setting this up to get data on mount, this will be moved to happen on search keydown
     axios.get('data/test-data-page-1.json')
       .then(res => {
@@ -28,21 +29,11 @@ const App = () => {
   }, [search])
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="header">
+        <div className="app-title">Movie Search App</div>
+        <Search setSearch={setSearch}></Search>
+      </div>
     </div>
   );
 }

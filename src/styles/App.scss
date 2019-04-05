@@ -1,0 +1,27 @@
+@import '../styles/variables';
+@import '../styles/mixins';
+
+.app {
+  text-align: center;
+
+  .header {
+    text-align: left;
+    position: fixed;
+    height: 60px;
+    background-color: #CCCCCC;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    .app-title {
+      flex: 1 0 auto;
+      font-size: 28px;
+      margin: 10px 20px;
+    }
+
+    .search-container {
+      flex: 1 0 auto;
+    }
+  }
+}
