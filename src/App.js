@@ -32,7 +32,7 @@ const App = () => {
     axios.get(search)
       .then(res => {
         const data = res.data;
-        console.log(data.results);
+
         setTotalPages(data.total_pages);
         setResults(data.results);
         setLoading(false);
