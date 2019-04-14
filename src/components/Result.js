@@ -10,7 +10,7 @@ const Result = ({ movie }) => {
   const rating = Math.floor(movie.vote_average);
 
   for (let i = 1; i < 11; i++) {
-    ratingStars.push(<span className={`fa fa-star ${i <= rating ? 'checked' : ''}`}></span>)
+    ratingStars.push(<span key={i} className={`fa fa-star ${i <= rating ? 'checked' : ''}`}></span>)
   }
 
   return (
@@ -24,6 +24,7 @@ const Result = ({ movie }) => {
             <div className="title">{movie.title}</div>
             <div className="release">{movie.release_date}</div>
             <div className="rating">{ratingStars}</div>
+            <div className="number-reviewers">Based on {movie.vote_count} Reviews</div>
             <div className="overview">{movie.overview}</div>
           </div>
         </div>

@@ -67,12 +67,18 @@
     .release  {
       font-size: 12px;
       font-weight: 400;
+      color: #777;
+      margin: 2px 0 10px;
+    }
+
+    .number-reviewers {
+      margin-bottom: 10px;
+      font-size: 12px;
       color: #999;
-      margin: 10px 0;
     }
 
     .rating {
-      margin-bottom: 10px;
+      margin-bottom: 4px;
       .fa-star {
         color: #e4e4e4;
 
