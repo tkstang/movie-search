@@ -53,6 +53,8 @@ body {
   }
 
   .results {
+    margin: 0 auto;
+    max-width: 1600px;
     flex: 1 0 calc(100% - 70px);
     margin-top: 120px;
     background-color: #fafafa;

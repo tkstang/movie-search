@@ -34,6 +34,14 @@
     background-color: #000;
     transform: rotateY(0deg);
 
+    .info-icon {
+      position: absolute;
+      bottom: 30px;
+      right: 10px;
+      font-size: 24px;
+      color: #f6f6f6;
+    }
+
     .poster {
       width: 342px;
       width: 100%;
@@ -41,6 +49,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-color: #000;
+      z-index: 100;
     }
   }
 
@@ -106,6 +115,10 @@
       .info {
         overflow: scroll;
       }
+    }
+
+    .card-front .info-icon {
+      bottom: 10px;
     }
   }
 }
