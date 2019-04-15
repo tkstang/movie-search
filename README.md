@@ -1,10 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project set up
+
+To get started first run `npm install` or `yarn install` to install dependencies.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` or `yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,30 +14,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
+### `npm run build` or `yarn build`
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
@@ -43,26 +25,36 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Challenges
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Functional components
 
-### Analyzing the Bundle Size
+I have minimal prior experience using react hooks and effect but I wanted to use this as an opportunity to get more comfortable with them.  I was familiar in concept but it took me a little longer than it normally would to complete the project while also doing further reading and checking documentation.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Mobile
 
-### Making a Progressive Web App
+Not so much a challenge as a time investment but I wanted to spend the extra time to make the app mobile first with stylings for both mobile and desktop media.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Reasonings
 
-### Advanced Configuration
+### UI
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+I wanted to go with what I felt would be a cleaner UI by displaying the movie posters as 'card' type elements and displaying the movie details when the image is hovered.  To me this makes for a nice user experience and makes the page look visually less cluttered.  I used flexbox rows to display the results.  With more time I would use media queries and javascript to create 'ghost' flex items to fill the last row in order to keep the 'columns' of flex items spaced consistently when the last row does not have enough items to fill the row.
 
-### Deployment
+### Debounce
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+I added a debounce to the search input so that the search would update when the user stops typing instead of every keystroke.
 
-### `npm run build` fails to minify
+### Infinite Scroll
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+I used an infinite scroll type functionality to load the next page of results when the user scrolls to the bottom of the page if additional results exist.
+
+## Next steps
+
+### Optional Feature
+
+It is important to me that things are both functional as well as visually appealing.  I opted to focus on making sure I was happy with the user experience which did not leave me any time to work on the optional feature.
+
+### Testing
+
+Given more time I would implement testing for the application.
