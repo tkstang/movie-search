@@ -1,0 +1,124 @@
+@import '../styles/variables';
+@import '../styles/mixins';
+
+.result-card-container {
+  width: 100%;
+  padding-bottom: calc(150% - 30px);
+  margin: 10px;
+  perspective: 1000px;
+  background-color: transparent;
+
+  &:hover {
+    .result-card {
+      transform: rotateY(180deg);
+    }
+  }
+
+  .result-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  .card-front {
+    background-color: #000;
+    transform: rotateY(0deg);
+
+    .info-icon {
+      position: absolute;
+      bottom: 30px;
+      right: 10px;
+      font-size: 24px;
+      color: #f6f6f6;
+    }
+
+    .poster {
+      width: 342px;
+      width: 100%;
+      padding-bottom: 150%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #000;
+      z-index: 100;
+    }
+  }
+
+  .card-back {
+    background-color: #f6f6f6;
+    border: 1px solid #e4e4e4;
+    color: #000;
+    transform: rotateY(180deg);
+    padding-bottom: 150%;
+    overflow: hidden;
+
+    .info {
+      padding: 40px;
+      max-height: calc(100% - 80px);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .release  {
+      font-size: 12px;
+      font-weight: 400;
+      color: #777;
+      margin: 2px 0 10px;
+    }
+
+    .number-reviewers {
+      margin-bottom: 10px;
+      font-size: 12px;
+      color: #999;
+    }
+
+    .rating {
+      margin-bottom: 4px;
+      .fa-star {
+        color: #e4e4e4;
+
+        &.checked {
+          color: orange;
+        }
+      }
+    }
+
+    .overview {
+      font-size: 14px;
+    }
+  }
+
+  @include sm {
+    width: 342px;
+    height: 513px;
+    padding-bottom: 0;
+
+    .card-front, .card-back {
+      padding-bottom: 0;
+    }
+
+    .card-back {
+      .info {
+        overflow: scroll;
+      }
+    }
+
+    .card-front .info-icon {
+      bottom: 10px;
+    }
+  }
+}
